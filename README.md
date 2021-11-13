@@ -109,7 +109,7 @@ for img, label, ax in  zip(sample_training_images, labels, axes):
 ```
 Output:
 ```
-//Display image here
+![Samples](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/images.png?raw=true)
 ```
 ## Test 1
 
