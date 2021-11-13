@@ -108,9 +108,9 @@ for img, label, ax in  zip(sample_training_images, labels, axes):
 	plt.tight_layout()
 ```
 Output:
-```
+
 ![Samples](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/images.png?raw=true)
-```
+
 ## Test 1
 
 ### Use pre-trained model
@@ -199,18 +199,16 @@ Code:
 plt.plot(history_1_1.history['categorical_accuracy'])
 ```
 Output:
-```
-//Display image here
-```
+
+![1_1_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_1_1_acc.png?raw=true)
+
 ### Loss
 Code:
 ```py
 plt.plot(history_1_1.history['loss'])
 ```
 Output:
-```
-//Display image here
-```
+![1_1_loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_1_1_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -266,18 +264,14 @@ Code:
 plt.plot(history1_2.history['categorical_accuracy'])
 ```
 Output:
-```
-//Display image here
-```
+![1_2_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_1_2_acc.png?raw=true)
 ### Loss
 Code:
 ```py
 plt.plot(history1_2.history['loss'])
 ```
 Output:
-```
-//Display image here
-```
+![1_2_loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_1_2_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -375,18 +369,14 @@ Code:
 plt.plot(history_2_1.history['categorical_accuracy'])
 ```
 Output:
-```
-//Display image here
-```
+![2_1_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_2_1_acc.png?raw=true)
 ### Loss
 Code:
 ```py
 plt.plot(history_2_1.history['loss'])
 ```
 Output:
-```
-//Display image here
-```
+![2_1_loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_2_1_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -443,18 +433,14 @@ Code:
 plt.plot(history2_2.history['categorical_accuracy'])
 ```
 Output:
-```
-//Display image here
-```
+![2_2_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_2_2_acc.png?raw=true)
 ### Loss
 Code:
 ```py
 plt.plot(history2_2.history['loss'])
 ```
 Output:
-```
-//Display image here
-```
+![2_2_loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_2_2_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -549,16 +535,14 @@ Code:
 plt.plot(history_3_1.history['categorical_accuracy'])
 ```
 Output:
-```
-```
+![3_1_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_3_1_acc.png?raw=true)
 ### Loss
 Code:
 ```py
 plt.plot(history_3_1.history['loss'])
 ```
 Output:
-```
-```
+![3_1_loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_3_1_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -615,18 +599,14 @@ Code:
 plt.plot(history3_2.history['categorical_accuracy'])
 ```
 Output:
-```
-//Display image here
-```
+![3_2_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_3_2_acc.png?raw=true)
 ### Loss
 Code:
 ```py
 plt.plot(history3_2.history['loss'])
 ```
 Output:
-```
-//Display image here
-```
+![3_2_loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_3_2_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -728,18 +708,14 @@ Code:
 plt.plot(history_4_1.history['categorical_accuracy'])
 ```
 Output:
-```
-//Display image here
-```
+![4_1_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_4_1_acc.png?raw=true)
 ### Loss
 Code:
 ```py
 plt.plot(history_4_1.history['loss'])
 ```
 Output:
-```
-//Display image here
-```
+![4_1_loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_4_1_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -796,18 +772,14 @@ Code:
 plt.plot(history4_2.history['categorical_accuracy'])
 ```
 Output:
-```
-//Display image here
-```
+![4_2_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_4_2_acc.png?raw=true)
 ### Loss
 Code:
 ```py
 plt.plot(history4_2.history['loss'])
 ```
 Output:
-```
-//Display image here
-```
+![4_2_acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/history_4_2_loss.png?raw=true)
 ### Validation Set Accuracy
 Code:
 ```py
@@ -819,10 +791,10 @@ Output:
 ```
 
 ## Accuracy Chart
-//Display Image here
+![acc](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/acc.png?raw=true)
 
 ## Loss Chart
-//Display image here
+![loss](https://github.com/2010454019/AKT3ILV_ImageClassifier/blob/main/Images/loss.png?raw=true)
 
 ## Conclusions
 * Bessere Accuracy wenn nur vollständig verbundene Layer trainiert werden
